@@ -1,2 +1,2 @@
-const result = () => Math.floor(Math.random() * 100) < 15 ? document.getElementById('item').innerHTML = "Prize" : document.getElementById('item').innerHTML = "Better luck next time sucker";
+const result = () => Math.floor(Math.random() * 100) < 15 ? document.getElementById('item').innerHTML = "🥤" : document.getElementById('item').innerHTML = "💩";
 result();
